@@ -204,7 +204,7 @@ msgstr "搜索"
 
 #: builtin/mainmenu/dlg_contentstore.lua
 msgid "Texture packs"
-msgstr "材质包"
+msgstr "纹理包"
 
 #: builtin/mainmenu/dlg_contentstore.lua
 msgid "Uninstall"
@@ -449,7 +449,7 @@ msgstr "安装MOD：无法为MOD包$1找到合适的文件夹名"
 
 #: builtin/mainmenu/pkgmgr.lua
 msgid "Unable to install a $1 as a texture pack"
-msgstr "无法将$1安装为材质包"
+msgstr "无法将$1安装为纹理包"
 
 #: builtin/mainmenu/pkgmgr.lua
 msgid "Unable to install a game as a $1"
@@ -473,11 +473,11 @@ msgstr "内容"
 
 #: builtin/mainmenu/tab_content.lua
 msgid "Disable Texture Pack"
-msgstr "禁用材质包"
+msgstr "禁用纹理包"
 
 #: builtin/mainmenu/tab_content.lua
 msgid "Information:"
-msgstr "MOD信息："
+msgstr "信息："
 
 #: builtin/mainmenu/tab_content.lua
 msgid "Installed Packages:"
@@ -489,7 +489,7 @@ msgstr "无依赖关系."
 
 #: builtin/mainmenu/tab_content.lua
 msgid "No package description available"
-msgstr "该MOD没有描述信息"
+msgstr "该包没有描述信息"
 
 #: builtin/mainmenu/tab_content.lua
 msgid "Rename"
@@ -497,11 +497,11 @@ msgstr "改名"
 
 #: builtin/mainmenu/tab_content.lua
 msgid "Uninstall Package"
-msgstr "删除选中的MOD"
+msgstr "删除选中的包"
 
 #: builtin/mainmenu/tab_content.lua
 msgid "Use Texture Pack"
-msgstr "使用材质包"
+msgstr "使用纹理包"
 
 #: builtin/mainmenu/tab_credits.lua
 msgid "Active Contributors"
@@ -541,7 +541,7 @@ msgstr "创造模式"
 
 #: builtin/mainmenu/tab_local.lua builtin/mainmenu/tab_simple_main.lua
 msgid "Enable Damage"
-msgstr "开启伤害风险"
+msgstr "开启伤害"
 
 #: builtin/mainmenu/tab_local.lua
 msgid "Host Game"
@@ -649,7 +649,7 @@ msgstr "抗锯齿："
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Are you sure to reset your singleplayer world?"
-msgstr "你确定要重置您的单人世界吗？"
+msgstr "你确定要重置您的单人玩家世界吗？"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Autosave Screen Size"
@@ -824,7 +824,7 @@ msgstr "初始化节点..."
 
 #: src/client/client.cpp
 msgid "Loading textures..."
-msgstr "载入材质..."
+msgstr "载入纹理..."
 
 #: src/client/client.cpp
 msgid "Rebuilding shaders..."
@@ -1060,7 +1060,7 @@ msgstr "快速移动模式已启用"
 
 #: src/client/game.cpp
 msgid "Fast mode enabled (note: no 'fast' privilege)"
-msgstr "快速模式已启用（注：无 'fast' 特权）"
+msgstr "快速模式已启用（注：没有fast权限）"
 
 #: src/client/game.cpp
 msgid "Fly mode disabled"
@@ -1072,7 +1072,7 @@ msgstr "启用飞行模式"
 
 #: src/client/game.cpp
 msgid "Fly mode enabled (note: no 'fly' privilege)"
-msgstr "启用飞行模式（无飞行权限）"
+msgstr "启用飞行模式（没有飞行权限）"
 
 #: src/client/game.cpp
 msgid "Fog disabled"
@@ -1100,7 +1100,7 @@ msgstr "物品定义..."
 
 #: src/client/game.cpp
 msgid "KiB/s"
-msgstr "KiB/s"
+msgstr "千字节/秒"
 
 #: src/client/game.cpp
 msgid "Media..."
@@ -1108,7 +1108,7 @@ msgstr "媒体..."
 
 #: src/client/game.cpp
 msgid "MiB/s"
-msgstr "MiB/s"
+msgstr "兆字节/秒"
 
 #: src/client/game.cpp
 msgid "Minimap currently disabled by game or mod"
@@ -1148,7 +1148,7 @@ msgstr "Noclip 模式已禁用"
 
 #: src/client/game.cpp
 msgid "Noclip mode enabled"
-msgstr "穿墙伤害已启用"
+msgstr "穿墙模式已启用"
 
 #: src/client/game.cpp
 msgid "Noclip mode enabled (note: no 'noclip' privilege)"
@@ -1168,15 +1168,15 @@ msgstr "开"
 
 #: src/client/game.cpp
 msgid "Pitch move mode disabled"
-msgstr ""
+msgstr "俯仰移动模式已禁用"
 
 #: src/client/game.cpp
 msgid "Pitch move mode enabled"
-msgstr ""
+msgstr "俯仰移动模式已启用"
 
 #: src/client/game.cpp
 msgid "Profiler graph shown"
-msgstr ""
+msgstr "显示探查图表"
 
 #: src/client/game.cpp
 msgid "Remote server"
@@ -1188,11 +1188,11 @@ msgstr "正在解析地址..."
 
 #: src/client/game.cpp
 msgid "Shutting down..."
-msgstr "关闭..."
+msgstr "关闭……"
 
 #: src/client/game.cpp
 msgid "Singleplayer"
-msgstr "单人游戏"
+msgstr "单人玩家游戏"
 
 #: src/client/game.cpp
 msgid "Sound Volume"
@@ -1261,7 +1261,7 @@ msgstr "隐藏分析器"
 #: src/client/gameui.cpp
 #, c-format
 msgid "Profiler shown (page %d of %d)"
-msgstr ""
+msgstr "显示探查器（第%d页，共%d页）"
 
 #: src/client/keycode.cpp
 msgid "Apps"
@@ -1905,7 +1905,7 @@ msgstr "空中加速"
 
 #: src/settings_translation_file.cpp
 msgid "Acceleration of gravity, in nodes per second per second."
-msgstr ""
+msgstr "重力加速度，以每秒节点数为单位。"
 
 #: src/settings_translation_file.cpp
 msgid "Active Block Modifiers"
@@ -1976,7 +1976,7 @@ msgstr "环境闭塞伽马"
 
 #: src/settings_translation_file.cpp
 msgid "Amount of messages a player may send per 10 seconds."
-msgstr ""
+msgstr "玩家每10秒发送的消息量。"
 
 #: src/settings_translation_file.cpp
 #, fuzzy
@@ -1998,11 +1998,11 @@ msgstr "发布服务器"
 
 #: src/settings_translation_file.cpp
 msgid "Append item name"
-msgstr ""
+msgstr "追加项目名称"
 
 #: src/settings_translation_file.cpp
 msgid "Append item name to tooltip."
-msgstr ""
+msgstr "将项目名称追加到工具提示。"
 
 #: src/settings_translation_file.cpp
 msgid "Apple trees noise"
@@ -2010,7 +2010,7 @@ msgstr "苹果树噪音"
 
 #: src/settings_translation_file.cpp
 msgid "Arm inertia"
-msgstr ""
+msgstr "手臂惯性"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -2359,7 +2359,7 @@ msgstr "控制台高度"
 
 #: src/settings_translation_file.cpp
 msgid "ContentDB Flag Blacklist"
-msgstr ""
+msgstr "ContentDB标记黑名单"
 
 #: src/settings_translation_file.cpp
 #, fuzzy
@@ -2394,7 +2394,7 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Controls sinking speed in liquid."
-msgstr ""
+msgstr "控制在液体中的下沉速度。"
 
 #: src/settings_translation_file.cpp
 msgid "Controls steepness/depth of lake depressions."
@@ -2473,7 +2473,7 @@ msgstr "音量减小键"
 
 #: src/settings_translation_file.cpp
 msgid "Decrease this to increase liquid resistence to movement."
-msgstr ""
+msgstr "减小此值可增加液体的运动阻力。"
 
 #: src/settings_translation_file.cpp
 msgid "Dedicated server step"
@@ -2804,7 +2804,7 @@ msgid ""
 "or need to be auto-generated.\n"
 "Requires shaders to be enabled."
 msgstr ""
-"启用材质的凹凸贴图效果。需要材质包支持法线贴图，\n"
+"启用纹理的凹凸贴图效果。需要纹理包支持法线贴图，\n"
 "否则将自动生成法线。\n"
 "需要启用着色器。"
 
@@ -2947,9 +2947,9 @@ msgid ""
 "light edge to transparent textures. Apply this filter to clean that up\n"
 "at texture load time."
 msgstr ""
-"经过滤的材质会与邻近的全透明材质混合RGB值，\n"
-"该值通常会被PNG优化器丢弃，某些时候会给透明材质产生暗色或\n"
-"亮色的边缘。应用该过滤器将在材质加载时\n"
+"经过滤的纹理会与邻近的全透明纹理混合RGB值，\n"
+"该值通常会被PNG优化器丢弃，某些时候会给透明纹理产生暗色或\n"
+"亮色的边缘。应用该过滤器将在纹理加载时\n"
 "移除该效果。"
 
 #: src/settings_translation_file.cpp
@@ -3511,7 +3511,7 @@ msgid ""
 "This requires the \"noclip\" privilege on the server."
 msgstr ""
 "使玩家可以在飞行启用时飞过固体方块。\n"
-"这需要服务器的“noclip”特权。"
+"这需要服务器的“noclip”权限。"
 
 #: src/settings_translation_file.cpp
 msgid ""
